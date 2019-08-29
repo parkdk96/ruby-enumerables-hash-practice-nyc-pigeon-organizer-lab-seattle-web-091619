@@ -36,4 +36,6 @@ data[:lives].each do |key, val|
     end
   end
 end
+
+return pigeon_list
 end
