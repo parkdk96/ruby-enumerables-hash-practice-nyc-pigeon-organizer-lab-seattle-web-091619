@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
   list_of_names = list_of_names.uniq
   
   data[:color].each do |key, val|
-    val.length.times do |i| #val is an array of names for each color
+    val.length.times do |i|
       if list_of_names.include?(val[i])
         pigeon_list[val[i]][:color].push(key.to_s)
       end
