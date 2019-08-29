@@ -11,6 +11,7 @@ pigeon_list = {}
     end
   end
 
+# Making this list in order to avoid additional hash navigation while writing the conditional statements
 list_of_names = list_of_names.uniq
 
 data[:color].each do |key, val|
